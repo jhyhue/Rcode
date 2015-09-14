@@ -30,7 +30,7 @@ plot(gdp.dt,type="l",xlab="time",ylab="Detrended values")
 #### Seasonal data: Monthly temperature for Guatemala 1901-2013 (CRU) ####
 
 # Load data
-gtm<-read.csv("gtm_temp_1901-2013.csv",header=TRUE,sep=",")
+gtm<-read.csv("TemperatureGuatemala_1901-2013.csv",header=TRUE,sep=",")
 
 # Reshape data
 d<-melt(gtm,id="YEAR")
