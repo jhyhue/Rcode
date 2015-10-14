@@ -55,7 +55,8 @@ ext.africa <- extent(c(-25, 60, -45,40))
 for (i in seq_along(files)){
   tab <- read.table(gzfile(files[i]))
   values(r) <- as.matrix(tab)
-  r.africa <- crop(r, ext.africa)
+  # rotate data and restrict to africa
+  r.africa <- crop(rotate(r),ext.africa)
   r.africa <- disaggregate(r.africa, fact=5)
   writeRaster(r.africa, filename=files.africa[i], overwrite=TRUE)
   cat("Writing ", files.africa[i], "...[",i,"/",length(files),"]\n")
