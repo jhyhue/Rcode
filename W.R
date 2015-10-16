@@ -1,7 +1,4 @@
-#======================================
-# Calculating spatial lag
-# for time-series cross-section data
-#======================================
+#### Calculate spatial lag for for time-series cross-section data ####
 
 ## Create observations (points)
 require(sp)
