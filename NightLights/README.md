@@ -1,6 +1,9 @@
 # Working with satellite night light data
 
+**Update**: `AggNightLights.R` is a more comprehensive code for `R` that processes the [night light data](http://ngdc.noaa.gov/eog/dmsp/downloadV4composites.html) and aggregates night light density to, in this case, state level in Nigeria. 
+
 This is a short try out for working with satellite night light data using Egypt and the Koreas as examples. The code is largely based on [this post](http://jeffreybreen.wordpress.com/2010/10/22/incremental-improvements-to-nightlights-mapping-thanks-to-r-bloggers/)
+
 
 ### Load libraries
 ```R
