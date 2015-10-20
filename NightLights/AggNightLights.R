@@ -36,7 +36,7 @@ for(i in 1:N){
   # 1) Assign same projection as shape file with boundaries
   proj4string(dat[[i]])<-proj4string(shp)  
   
-  # 2) Crop the rasters
+  # 2) Crop the rasters --> This step is redundant due to use of 'extract'in (3)
   raster[[i]]=crop(dat[[i]],extent(shp))   
   
   # 3) Extract the data and calculate the average per district
