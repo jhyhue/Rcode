@@ -1,7 +1,5 @@
-#**************************************
 #### Robust clustered standard errors ####
-#**************************************
-## Source:
+# Source:
 # http://people.su.se/~ma/mcluster.R
 # http://people.su.se/~ma/clustering.pdf
 

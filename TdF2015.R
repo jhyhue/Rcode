@@ -8,7 +8,6 @@
 tdf<- read.table(url("http://www.theusrus.de/Blog-files/TDF2015.txt"), 
                  header=T, sep="\t", quote="")
 
-
 #### Time-trial results (Stage 1) ####
 x<-sort(tdf$S1)
 par(mar=c(4,2,8,2),bg="black",family="serif")
@@ -22,7 +21,6 @@ text(x[8],1.1,"+29s",cex=1.2,col="white");segments(x[8],1.01,x[8],1.08,lwd=2,col
 text(x[99],1.1,"+1m19s",cex=1.2,col="white");segments(x[99],1.01,x[99],1.08,lwd=2,col="white")
 text(x[197],1.1,"+2m28s",cex=1.2,col="white");segments(x[197],1.01,x[197],1.08,lwd=2,col="white")
 text(x[198],1.1,"+3m36s",cex=1.2,col="white");segments(x[198],1.01,x[198],1.08,lwd=2,col="white")
-
 
 #### General classification after Pyrenees stages (stage 12) ####
 

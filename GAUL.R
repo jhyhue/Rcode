@@ -1,9 +1,8 @@
 #### GAUL data: subset ####
-## Subset GAUL dataset to administrative divisions of countries of interest.
-## Reference year is 2014
-## For data source see: 
-## https://github.com/akvo/akvo-core-services/tree/master/akvo-geo/doc
-
+# Subset GAUL dataset to administrative divisions of countries of interest.
+# Reference year: 2014
+# Data source:
+# https://github.com/akvo/akvo-core-services/tree/master/akvo-geo/doc
 setwd("~/GAUL") 
 gc() # Garbage collection
 
